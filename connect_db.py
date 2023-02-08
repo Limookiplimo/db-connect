@@ -11,7 +11,7 @@ for record in range(1000):
 
 db_data = tuple(records)
 
-conn_string = "dbname='testdb' host='localhost' user='' password=''"
+conn_string = "dbname='your-db' host='localhost' user='db-user' password='your-password'"
 conn = db.connect(conn_string)
 cur = conn.cursor()
 
